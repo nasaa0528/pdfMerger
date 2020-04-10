@@ -1,5 +1,5 @@
 # pdfMerger
-## Enlsih - Readme
+## English
 ```merge.py``` - is simple pdf merger solution for all platform which supports python. This solution works similar as 
 ```/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py```
 on mac devices. 
