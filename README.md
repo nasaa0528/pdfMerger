@@ -1,5 +1,5 @@
 # pdfMerger
-merge.py - is simple pdf merger solution for all platform which supports python. This solution works similar as "/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" on mac devices. 
+```merge.py``` - is simple pdf merger solution for all platform which supports python. This solution works similar as "/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" on mac devices. 
 
 It is built on top of PyPDF2 library. You can download and install PyPDF2 library using pip package manager with 
 $:pip install PyPDF2 # case-sensitive
@@ -10,13 +10,16 @@ Also, if you know about basics of Python, it will give you power of manipulating
 In the source code, pageObj = pdfReader.getPage(pageNum) - section defines each oage of the pdf file. Therefore, you can give specific rule of page manipulation on this page using PyPDF2 library. 
 
 Prerequisites: 
+```
  - python==3.6.8
  - PyPDF2==1.26.0
-
-Tested Environment: 
+```
+Tested Environment:
+```
  - MacOS Catalina, 10.15.4
+```
 
-merge.py - скрипт нь Мак үйлдлийн систем дээр байдаг "/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" програмтай төстэй үйлдлийг гүйцэтгэнэ. Өөрөөр хэлбэл, Python3 дэмжиж буй бүх платформ дээр pdf файлыг нэгтгэх боломжийг олгох хэрэглүүр юм.
+```merge.py``` - скрипт нь Мак үйлдлийн систем дээр байдаг "/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py" програмтай төстэй үйлдлийг гүйцэтгэнэ. Өөрөөр хэлбэл, Python3 дэмжиж буй бүх платформ дээр pdf файлыг нэгтгэх боломжийг олгох хэрэглүүр юм.
 
 Энэхүү скрипт нь PyPDF2 санг ашигласан тул, хэрвээ та шууд эх кодыг ашиглан ажиллуулах бол PyPDF2 санг суулгасан байх шаардлагатай. 
 PyPDF2 санг суулгахдаа pip ашиглан 
