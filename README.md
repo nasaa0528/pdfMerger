@@ -1,7 +1,7 @@
 # pdfMerger
 ## Enlsih - Readme
 ```merge.py``` - is simple pdf merger solution for all platform which supports python. This solution works similar as 
-```**/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py**```
+```/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py```
 on mac devices. 
 
 It is built on top of **PyPDF2** library. You can download and install **PyPDF2** library using **pip** package manager with 
@@ -25,9 +25,8 @@ Tested Environment:
 ```
 
 ## Монгол
-<br>
 ```merge.py``` - скрипт нь Мак үйлдлийн систем дээр байдаг 
-```**/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py**```
+```/System/Library/Automator/Combine PDF Pages.action/Contents/Resources/join.py```
 програмтай төстэй үйлдлийг гүйцэтгэнэ. Өөрөөр хэлбэл, Python3 дэмжиж буй бүх платформ дээр pdf файлыг нэгтгэх боломжийг олгох хэрэглүүр юм.
 
 Энэхүү скрипт нь **PyPDF2** санг ашигласан тул, хэрвээ та шууд эх кодыг ашиглан ажиллуулах бол **PyPDF2** санг суулгасан байх шаардлагатай. 
